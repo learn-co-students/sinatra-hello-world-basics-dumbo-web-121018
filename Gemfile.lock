@@ -1,3 +1,10 @@
+GIT
+  remote: git@github.com:rtomayko/shotgun.git
+  revision: 3640bcdb8a243ece5b370d0f537d9ff73f0db26e
+  specs:
+    shotgun (0.9.2)
+      rack (>= 1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -40,8 +47,6 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.3.0)
     rspec-support (3.3.0)
-    shotgun (0.9.1)
-      rack (>= 1.0)
     sinatra (1.4.6)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -65,9 +70,9 @@ DEPENDENCIES
   rake
   require_all
   rspec
-  shotgun
+  shotgun!
   sinatra
   thin
 
 BUNDLED WITH
-   1.10.6
+   1.17.1
